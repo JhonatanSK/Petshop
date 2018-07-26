@@ -1,0 +1,161 @@
+body{
+    background-color: rgba(232, 240, 247, 0.966);
+}
+header{
+    font-family:  'Oswald', sans-serif;
+    font-size: 38px;
+    display: flex;
+    /* margin: inherit; */
+    /* background-image: linear-gradient( rgba(237, 246, 250, 0.781), rgba(254, 254, 255, 0.795) ), url(img/banner.jpg); */
+    height: 108px;
+    width: 100%;
+    background-color: skyblue;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+
+}
+li a{
+    margin-left: 60px;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkblue;
+}
+li a:hover{
+    background-color: rgb(106, 166, 245); 
+    transition: 0.5s;
+    border-radius: 4px;
+}
+.dadosCliente{
+    display: flex;
+    /* background-color: ; */
+    margin: 20px 30px;
+    /* margin-bottom: 2px solid rgba(247, 245, 245, 0.932);
+    border-block-end: 2px solid rgba(247, 245, 245, 0.932); */
+}
+.dadosDono{
+    margin: 10px 100px 10px 80px;
+    border: solid 2px rgba(232, 240, 247, 0.966);
+    padding: 40px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 4px;
+
+}
+
+.dadosAnimal{
+    margin: 10px 100px 10px 80px;
+    border: solid 2px rgba(232, 240, 247, 0.966);
+    padding: 40px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 4px;
+    
+}
+.dadosCliente img{
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 80px;
+}
+.perfilDono{
+    position: relative;
+    font-size: 25px;
+    display: table-caption;
+}
+.perfilAnimal{
+    position: relative;
+    font-size: 25px;
+    display: table-caption;
+}
+/* .dadosAnimal h3{
+    margin-left: 20px;
+    margin-right: 30px;
+} */
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.borderbotton{
+    border-bottom: 2px solid rgba(226, 220, 220, 0.849);
+}
+.grid span{
+    width: 300px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.parte2{
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+
+
+}
+.parte2 h2{
+    font-family:  'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.meuServicos{
+    height: 600px;
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    border: solid 2px rgba(206, 235, 252, 0.849);
+}
+.ul2{
+    display: grid;
+    list-style-type: none;
+    margin: auto;
+
+}
+.ul2 li{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 26px;
+}
+.calendario{
+    float: right;
+    margin-right: 10%;
+}
+
+@media (max-width: 800px) {
+.dadosCliente{
+flex-wrap: wrap;
+}
+.perfilAnimal{
+    font-size: 22px;
+}
+.perfilDono{
+    font-size: 22px;
+}
+}
+@media (max-width: 380px){
+ .wrap{
+    flex-wrap: wrap;
+ }   
+ .dadosDono{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+ }
+}

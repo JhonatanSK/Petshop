@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(232, 240, 247, 0.966);
+}
+header{
+    font-family:  'Oswald', sans-serif;
+    font-size: 38px;
+    display: flex;
+    /* margin: inherit; */
+    /* background-image: linear-gradient( rgba(237, 246, 250, 0.781), rgba(254, 254, 255, 0.795) ), url(img/banner.jpg); */
+    height: 98px;
+    width: 100%;
+    background-color: skyblue;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+
+}
+li a{
+    margin-left: 60px;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkblue;   
+}
+li a:hover{
+    background-color: rgb(106, 166, 245); 
+    transition: 0.5s;
+    border-radius: 4px;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.servicos1 ul{
+    display: grid;
+    font-size: 20px;
+    
+}
+.servicos1 li{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.contratarServicos{
+    /* background-color: white;
+    margin-left: 10%;
+    margin-right: 10%; */
+}
+.marginAuto{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.height{
+    height: 600px;
+}
+hh{
+    text-align: center;
+}
+.banhos{
+font-size: 18px;
+padding-left: 30px;
+}
+.banhos h3{
+    text-align: center;
+    font-size: 30px;
+    
+}
