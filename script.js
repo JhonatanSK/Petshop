@@ -5,7 +5,7 @@
 // let password= document.querySelectorAll(".senha");
 // let mudatela= open(URL/"index2.html");
 
-alert("email: patrickcosta@gmail.com  senha:123")
+alert("email: patrick@gmail.com  senha:123")
 
 // if(button.onclick = tentativa==0+1){
 

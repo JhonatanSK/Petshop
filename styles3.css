@@ -50,9 +50,12 @@ h2{
     margin-right: 10%; */
 }
 .marginAuto{
-    background-color: white;
+    background-color: rgba(238, 240, 247, 0.986);
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    margin-top: 2%;
 }
 .height{
     height: 600px;
@@ -69,3 +72,20 @@ padding-left: 30px;
     font-size: 30px;
     
 }
+.imagens{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 25%;
+
+}
+@media (max-width:800px){
+    .banhos .imagens{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    header{
+        font-size: 26px;
+    }
+}
+
